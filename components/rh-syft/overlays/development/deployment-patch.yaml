@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: rh-syft
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rhtap-build-tenant/rh-syft/rh-syft@sha256:d61915871c946b9d10c28b656e44d0ec6780d237ea57d141eafdf48edd6ee0c4
+        name: container-image
+        resources: {}
+status: {}
