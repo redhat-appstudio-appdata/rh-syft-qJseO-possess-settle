@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: rh-syft
     app.kubernetes.io/part-of: rh-syft
-  name: rh-syftbmid
+  name: rh-syftznwi
 spec:
   port:
     targetPort: 8080
