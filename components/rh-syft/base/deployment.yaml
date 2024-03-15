@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: rh-syft
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtap-build-tenant/rh-syft/rh-syft@sha256:27c268d678103a27b6964c2cd5169040941b7304d0078f9727789ffb8ffba370
+      - image: quay.io/redhat-user-workloads/rhtap-build-tenant/rh-syft/rh-syft@sha256:1f071668828c04ff9120b8a454ab070082bd6ab123586fa84c21db9b96f05995
         imagePullPolicy: Always
         name: container-image
         ports:
